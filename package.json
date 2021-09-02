@@ -6,11 +6,11 @@
   "private": true,
   "homepage": ".",
   "engines": {
-    "node": "16.x"
+    "node": "16.6.2"
   },
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.4.3",
-    "apexcharts": "^3.27.3",
+    "@truffle/hdwallet-provider": "1.5.0",
+    "apexcharts": "3.27.3",
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-es2015": "6.24.1",
@@ -22,8 +22,8 @@
     "chai-as-promised": "7.1.1",
     "chai-bignumber": "3.0.0",
     "dotenv": "10.0.0",
-    "glob-parent": "^6.0.1",
-    "lodash": "^4.17.21",
+    "glob-parent": "6.0.1",
+    "lodash": "4.17.21",
     "moment": "2.29.1",
     "openzeppelin-solidity": "3.4.1",
     "react": "17.0.2",
@@ -31,15 +31,14 @@
     "react-bootstrap": "1.6.1",
     "react-dom": "17.0.2",
     "react-redux": "7.2.4",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "4.0.3",
     "redux": "4.1.1",
     "redux-logger": "3.0.6",
     "reselect": "4.0.0",
-    "truffle": "^5.4.3",
+    "truffle": "5.4.7",
     "truffle-flattener": "1.5.0",
     "truffle-hdwallet-provider-privkey": "^0.3.0",
-    "web3": "^1.5.1",
-    "y18n": "^5.0.8"
+    "web3": "1.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -55,10 +54,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "eslint": "^7.32.0",
-    "solidity-coverage": "^0.7.16",
-    "web-vitals": "^2.1.0"
-  }
+  ]
 }
