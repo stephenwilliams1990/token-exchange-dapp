@@ -1,6 +1,6 @@
 # Token Decentralised Exchange
 
-This project is a build of a decentralised order book exchange on the Ethereum network. The smart contract is launched on the Goerli network. To see the finished product, it is deployed at https://token-exchange-dapp.vercel.app/.
+This project is a build of a decentralised order book exchange on the Ethereum network. The smart contract is launched on the Goerli test network. To see the finished product, it is deployed at https://token-exchange-dapp.vercel.app/.
 
 ## Available Scripts
 
