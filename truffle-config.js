@@ -22,9 +22,26 @@ module.exports = {
           2
         )
       },
+    
       gas: 5000000,
       gasPrice: 25000000000,
       network_id: 5
+    },
+    rinkeby: {
+      provider: function() { // need to connect to kovan with an ethereum provider
+        return new HDWalletProvider(
+          //privateKey,
+          privateKeys.split(","), // Private key
+          `https://rinkeby.infura.io/v3/${process.env.INFURA_API_KEY}`, // URL to an ethereum node
+          0,
+          2
+        )
+      },
+    
+      gas: 5000000,
+      gasPrice: 25000000000,
+      network_id: 4,
+      networkCheckTimeout: 999999,
     }
   },
   contracts_directory: './src/contracts/', //so whenever we create new smart contracts they go into this directory

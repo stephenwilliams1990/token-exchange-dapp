@@ -23,6 +23,9 @@ class Navbar extends Component {
                                 {this.props.account} 
                             </a>
                         </li>
+                        <li className="nav-item"> 
+                            <span className="navbar-brand">Run on Goerli Test Network</span>
+                        </li>
                     </ul>
                 </div>
             </nav>

@@ -49,7 +49,7 @@
   "sourceMap": "66:352:2:-:0;;;113:10;90:33;;;;;;;;;;;;;;;;;;;;66:352;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:352:2;;;;;;;",
   "deployedSourceMap": "66:352:2:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:352:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;127:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;90:33;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;313:103;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;313:103:2;;;;;;;;;;;;;;;;;:::i;:::-;;127:36;;;;:::o;90:33::-;;;;;;;;;;;;;:::o;313:103::-;225:5;;;;;;;;;;;211:19;;:10;:19;;;196:101;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;402:9:::1;375:24;:36;;;;313:103:::0;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}\n",
-  "sourcePath": "C:\\pr0\\blockchain-developer-bootcamp\\src\\contracts\\Migrations.sol",
+  "sourcePath": "C:\\Users\\steph\\repos\\blockchain-developer-bootcamp\\src\\contracts\\Migrations.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -930,6 +930,12 @@
     "version": "0.6.0+commit.26b70077.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x24126FCf58aeBf2bf616d31ba6231ff3Ed12D634",
+      "transactionHash": "0x4533dc8b51677ab8a2f4e3a2b73e036b23aae907fc1d3c994168219b4c292cfc"
+    },
     "5": {
       "events": {},
       "links": {},
@@ -944,7 +950,7 @@
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-09-02T22:46:48.910Z",
+  "updatedAt": "2021-11-11T20:21:32.230Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
